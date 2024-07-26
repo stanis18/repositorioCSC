@@ -97,9 +97,7 @@ that will ensure for all participants that interact with the
 smart contract that a given instance was created by the Trusted Deployer by calling its get-spec function; therefore it is formally verified and safe. The user must also upload the specification and implementation files. Solidity supports multiple inheritance, so multiple contracts can be inherited by a contract that is known as a derived contract. In this case the user must inform the derived contract to be verified and constructor parameters when they exist. 
 
 
-<img src="images/deploypicture.png" alt="Deploy Screen" width="600" height="400">
-
-
+<img src="images/deploypicture.png" alt="Deploy Screen" width="800" height="400">
 
 
 
@@ -116,7 +114,7 @@ Considering the good practices to handle the wallet described in the previous se
 
 
 
-<img src="images/updatepicture.png" alt="Update Screen" width="600" height="400">
+<img src="images/updatepicture.png" alt="Update Screen" width="800" height="400">
 
 
 
