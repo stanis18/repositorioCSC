@@ -125,7 +125,7 @@ Considering the good practices to handle the wallet described in the previous se
 ##  Citing
 
 This research is a part of effort to extend the work that we present in the 20th International Conference on
-Software Engineering and Formal Methods [[1]](#1); If you want to refer to our previous work, please use the following BibTeX entry for citation.
+Software Engineering and Formal Methods [[1]](#1); and the  Software and Systems Modeling journal that focuses on theoretical and practical issues in the development and application of software and system modeling languages, techniques, and methods, such as the Unified Modeling Language [[2]](#2). If you want to refer to our previous work, please use the following BibTeX entry for citations.
 
 ```
 @InProceedings{10.1007/978-3-031-17108-6_14,
@@ -137,11 +137,28 @@ Software Engineering and Formal Methods [[1]](#1); If you want to refer to our p
     publisher="Springer International Publishing",
     address="Cham",
     pages="227--243",
-    abstract="Smart contracts are the building blocks of the 'code is law' paradigm: the smart contract's code indisputably describes how its assets are to be managed - once it is created, its code is typically immutable. Faulty smart contracts present the most significant evidence against the practicality of this paradigm; they are well-documented and resulted in assets worth vast sums of money being compromised. To address this issue, the Ethereum community proposed (i) tools and processes to audit/analyse smart contracts, and (ii) design patterns implementing a mechanism to make contract code mutable. Individually, (i) and (ii) only partially address the challenges raised by the 'code is law' paradigm. In this paper, we combine elements from (i) and (ii) to create a systematic framework that moves away from 'code is law' and gives rise to a new 'specification is law' paradigm. It allows contracts to be created and upgraded but only if they meet a corresponding formal specification. The framework is centered around a trusted deployer: an off-chain service that formally verifies and enforces this notion of conformance. We have prototyped this framework, and investigated its applicability to contracts implementing three widely used Ethereum standards: the ERC20 Token Standard, ERC3156 Flash Loans and ERC1155 Multi Token Standard, with promising results.",
     isbn="978-3-031-17108-6"
 }
 ```
 
+
+```
+@InProceedings{10.1007/978-3-031-17108-6_14,
+    author="Antonino, Pedro and Ferreira, Juliandson and Sampaio, Augusto and Roscoe, A. W.",
+    editor="Schlingloff, Bernd-Holger and Chai, Ming",
+    title="A refinement-based approach to safe smart contract deployment and evolution",
+    booktitle="Software Engineering and Formal Methods",
+    year="2024",
+    publisher="Springer International Publishing",
+    address="Cham",
+    pages="227--243",
+    isbn="978-3-031-17108-6"
+}
+```
+
+
 ##  References
 
 <a id="1">[1] Antonino, P., Ferreira, J., Sampaio, A., Roscoe, A.W. (2022). Specification is Law: Safe Creation and Upgrade of Ethereum Smart Contracts. In: Schlingloff, BH., Chai, M. (eds) Software Engineering and Formal Methods. SEFM 2022. Lecture Notes in Computer Science, vol 13550. Springer, Cham. https://doi.org/10.1007/978-3-031-17108-6_14
+
+<a id="2">[2] Antonino, P., Ferreira, J., Sampaio, A. et al. A refinement-based approach to safe smart contract deployment and evolution. Softw Syst Model 23, 657–693 (2024). https://doi.org/10.1007/s10270-023-01143-z
