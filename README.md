@@ -88,25 +88,16 @@ To access the features of the tool it is necessary to have a metamask wallet. Al
  ## Smart Contract Creation Process
 
 
-    To increase the security of the tool, we do not store or manage the user's private key, instead we use a 
-    custodial crypto wallet so the user is not in control of the funds and contracts deployed. 
+To increase the security of the tool, we do not store or manage the user's private key, instead we use a 
+custodial crypto wallet so the user is not in control of the funds and contracts deployed. 
 
     
-
-    To understand the implementation challenges for registering contracts on the 
-                    blockchain, it is necessary to evaluate the processes related to the 
-                    Trusted Deployer tool's deployer module. Figure below shows a screenshot 
-                    of the creation smart contract process, according to the workflow, 
-                    that will ensure for all participants that interact with the 
-                    smart contract that a given instance was created by the Trusted Deployer 
-                    by calling its get-spec function; therefore it is formally verified and safe. 
-                    The user must also upload the specification and implementation files. 
-                    Solidity supports multiple inheritance, so multiple contracts can be inherited 
-                    by a contract that is known as a derived contract. In this case the user must 
-                    inform the derived contract to be verified and constructor parameters when they exist. 
+To understand the implementation challenges for registering contracts on the blockchain, it is necessary to evaluate the processes related to the Trusted Deployer tool's deployer module. Figure below shows a screenshot of the creation smart contract process, according to the workflow, 
+that will ensure for all participants that interact with the 
+smart contract that a given instance was created by the Trusted Deployer by calling its get-spec function; therefore it is formally verified and safe. The user must also upload the specification and implementation files. Solidity supports multiple inheritance, so multiple contracts can be inherited by a contract that is known as a derived contract. In this case the user must inform the derived contract to be verified and constructor parameters when they exist. 
 
 
-<img src="images/deploypicture.png" alt="Deploy Screen" width="300" height="200">
+<img src="images/deploypicture.png" alt="Deploy Screen" width="600" height="400">
 
 
 
@@ -125,7 +116,7 @@ Considering the good practices to handle the wallet described in the previous se
 
 
 
-<img src="images/updatepicture.png" alt="Update Screen" width="300" height="200">
+<img src="images/updatepicture.png" alt="Update Screen" width="600" height="400">
 
 
 
