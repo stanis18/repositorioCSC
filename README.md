@@ -55,10 +55,17 @@ The ERC-721 standard defines a minimum interface a smart contract must implement
 
 In order to build the docker container and verify the smart contracts in this repository. Please follow the instructions presented in [solc-verify](https://github.com/SRI-CSL/solidity/blob/boogie/docker/README.md) github page.
 
-## Running The Verification Script
+## Running The Trusted Deployer Tool
+
+First you should execute the following commands:
 
 
-This Docker allows us to quickly run the Verification Tool.
+```
+cd inv-evo
+docker build -t alloy .  
+```
+
+The Docker file on the rooot folder allows us to quickly run the Verification Tool.
 To build the tool in a docker container you should clone the project and  run the the following commands:
 
 ```
